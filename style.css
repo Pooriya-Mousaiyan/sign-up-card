@@ -1,0 +1,137 @@
+@font-face {
+    font-family: Title;
+    src: url(./fonts/Anton-Regular.ttf);
+}
+
+@font-face {
+    font-family: semi-title;
+    src: url(./fonts/Teko-Medium.ttf);
+}
+
+
+html {
+    padding-top: 15vh;
+}
+
+
+/* main part */
+#main {
+    margin: auto;
+    width: 750px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+
+
+/* top part */
+#top-part {
+    padding: 50px;
+    /* text-align: center; */
+}
+
+#top-part > h2 {
+    color: #00c4c0;
+    font-family: Title;
+    font-weight: 200;
+    font-size: 1.6rem;
+}
+
+#top-part > h4 {
+    color: #a9f218;
+    font-family: semi-title;
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+
+#top-part > p {
+    opacity: 0.6;
+}
+
+/* buttom part */
+#buttom-part {
+    color: white;
+    display: flex;
+}
+
+
+/* buttom left part */
+#left-part {
+    flex: 1;
+    padding: 50px;
+    background-color: #00bab4;
+}
+
+#left-part > h2 {
+    font-family: Title;
+    font-weight: 200;
+    font-size: 1.4rem;
+}
+
+.price , .price-text {
+    display: inline;
+    vertical-align: middle;
+}
+
+.price {
+    font : lighter 2.4rem semi-title;
+    line-height: 0;
+}
+
+.price-text {
+    position: relative;
+    bottom: 5px;
+    left: 10px;
+    opacity: 0.7;
+    line-height: 0;
+}
+
+#left-part > p {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+#sign-up {
+    width: 100%;
+    padding: 5px;
+    background-color: #a9f218;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-family: semi-title;
+    box-shadow: 5px 5px 10px #393a3a33;
+    cursor: pointer;
+}
+
+#sign-up:hover {
+    background-color: #ca19ca;
+    transform: scale(1.02);
+}
+
+/* buttom right part */
+
+#right-part {
+    flex : 1;
+    padding: 50px;
+    background-color: #00c4c0 ;
+}
+
+#right-part > h2 {
+    font-family: Title;
+    font-weight: 200;
+    font-size: 1.4rem;
+}
+
+ul , li {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 0.7cm;
+    font: light 0.8em semi-title;
+}
+
+
